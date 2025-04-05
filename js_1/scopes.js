@@ -60,5 +60,9 @@ var c = 4;
 
 for (let i = 1; i <= 10; i++) {
     const element = i * 2;
-    console.log(element); // prints 0, 5, 10, ..., 45
+  //  console.log(element); // prints 0, 5, 10, ..., 45
 }
+
+let x=5;
+x +=10;
+console.log(x)
