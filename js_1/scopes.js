@@ -11,7 +11,7 @@ var c = 4;
 // var c = 4;
 // console.log(a)
 // }
-
+ 
 // console.log(a)
 // console.log(b)
 // console.log(c)
@@ -65,4 +65,15 @@ for (let i = 1; i <= 10; i++) {
 
 let x=5;
 x +=10;
-console.log(x)
+//console.log(x)
+
+
+
+const arr = [1,32,3,4,5,6]
+for (const arreg in arr) {
+  // if (Object.prototype.hasOwnProperty.call(object, key)) {
+  //   const element = object[key];
+    
+  // }
+  console.log(`fguiuyghjkl , ${arreg}`)
+}
