@@ -15,9 +15,33 @@
    <script>
 
     function addleg(legName){
-        
-
+     const li = document.createElement(li)   ;
+     li.appendchild(document.createTextNode(hindi));
+     document.querySelector(".leg").appendChild(li)
     }
+   addleg("php")
+   console.log(addleg)
+
+    // edit code
+     const edit = document.querySelector("li:nth-child(2)");
+     //` edit.innerHTML="tsx"
+     const newedit = document.createElement("li");
+     newedit.textContent="tsx"
+     edit.replaceWith(newedit)
+
+     //or===
+
+     const edit2 = document.querySelector("li:first-child");
+     edit2.outerHTML = "<li>js</li>"
+
+     
+
+
+
+     //remove============
+
+     const liremove = document.querySelector("li:last-child");
+     liremove.remove()
    </script>
 </body>
 </html>
